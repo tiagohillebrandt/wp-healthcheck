@@ -2,9 +2,9 @@
 Contributors: tiagohillebrandt, marksabbath
 Tags: performance, transients, autoload, cron, healthcheck, load time, ssl, https, check
 Requires at least: 3.9
-Tested up to: 4.9.6
+Tested up to: 5.2.2
 Requires PHP: 5.5
-Stable tag: 1.3.1
+Stable tag: 1.4.0
 License: GPLv3+
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -75,6 +75,15 @@ If you are a developer and want to contribute writing new features, enhancements
 3. WP-CLI extension.
 
 == Changelog ==
+
+= [1.4.0] 2019-XX-XX =
+* Feature: A brand new UI.
+* Feature: SSL secure headers.
+* Feature: WordPress security overview.
+* Feature: WP Healthcheck blog posts are now available on plugin's tab.
+
+= [1.3.2] 2019-01-25 =
+* Bump WordPress version compatibility to 5.2.2 on readme.txt.
 
 = [1.3.1] 2018-06-03 =
 * Hotfix: Fixes an issue when trying to retrieve web server details on recent PHP versions ([#35](https://github.com/wp-healthcheck/wp-healthcheck/issues/35)).
